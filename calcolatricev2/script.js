@@ -11,7 +11,7 @@ function cancella() {
 function risultato() {
     const schermo = document.getElementById("schermo");
         schermo.value = eval(schermo.value);
-
+}
 
 document.addEventListener("keydown", function(event) {
     const schermo = document.getElementById("schermo");
