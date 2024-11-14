@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcolatrice</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="input">
+            <h1>Anagrafica</h1>
+            <input placeholder="Nome" type="text" id="Nome">
+            <input placeholder="Cognome" type="text" id="Cognome">
+            <input placeholder="Indirizzo" type="text" id="Indirizzo">
+            <input placeholder="Città" type="text" id="Città">
+            <input placeholder="Email" type="text" id="Email">
+            <input class="button" type="button" value="AGGIUNGI" onclick="stampa()">
+        </div>
+        <table id="tabella">
+            <tr>
+                <td>Nome</td>
+                <td>Cognome</td>
+                <td>Indirizzo</td>
+                <td>Città</td>
+                <td>Email</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
