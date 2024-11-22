@@ -46,3 +46,17 @@ function aggiornaTabella() {
         i++;
     }
 }
+
+function svuotaTabella() {
+    let table = document.getElementById("tabella");
+    let contRighe = table.rows.length;
+    for (let i = contRighe - 1; i > 0; i--) {
+        table.deleteRow(i);
+    }
+    let i = 1;
+    while (localStorage.getItem("Info" + i) !== null) {
+        localStorage.removeItem("Info" + i);
+        i++;
+    }
+    localStorage.removeItem("cont");
+}
