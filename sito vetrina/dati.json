@@ -1,0 +1,102 @@
+[
+    {
+      "nome": "Apple iMac 27\" 5K",
+      "prezzo": 1799,
+      "immagine": "./immagini/imac27.jpeg",
+      "specifiche": {
+        "Processore": "Intel Core i5 3.1GHz",
+        "RAM": "8 GB",
+        "Scheda Video": "Radeon Pro 5300",
+        "Storage": "512 GB SSD"
+      }
+    },
+    {
+      "nome": "Dell XPS 15",
+      "prezzo": 1499,
+      "immagine": "./immagini/dellxps15.jpg",
+      "specifiche": {
+        "Processore": "Intel Core i7 2.6GHz",
+        "RAM": "16 GB",
+        "Scheda Video": "NVIDIA GTX 1650",
+        "Storage": "512 GB SSD"
+      }
+    },
+    {
+      "nome": "HP Spectre x360",
+      "prezzo": 1399,
+      "immagine": "./immagini/hpspectre.jpg",
+      "specifiche": {
+        "Processore": "Intel Core i7 1.8GHz",
+        "RAM": "8 GB",
+        "Scheda Video": "Intel Iris Plus",
+        "Storage": "256 GB SSD"
+      }
+    },
+    {
+      "nome": "Asus ZenBook 14",
+      "prezzo": 1299,
+      "immagine": "./immagini/asuszenbook.jpg",
+      "specifiche": {
+        "Processore": "Intel Core i7 2.8GHz",
+        "RAM": "16 GB",
+        "Scheda Video": "Intel Iris Xe",
+        "Storage": "512 GB SSD"
+      }
+    },
+    {
+      "nome": "Acer Swift 3",
+      "prezzo": 999,
+      "immagine": "./immagini/acerswift.jpg",
+      "specifiche": {
+        "Processore": "AMD Ryzen 7 3.0GHz",
+        "RAM": "8 GB",
+        "Scheda Video": "AMD Radeon Vega 8",
+        "Storage": "512 GB SSD"
+      }
+    },
+    {
+      "nome": "Microsoft Surface Laptop 4",
+      "prezzo": 1499,
+      "immagine": "./immagini/surfacelaptop.jpg",
+      "specifiche": {
+        "Processore": "Intel Core i7 2.6GHz",
+        "RAM": "16 GB",
+        "Scheda Video": "Intel Iris Xe",
+        "Storage": "512 GB SSD"
+      }
+    },
+    {
+      "nome": "Razer Blade 15",
+      "prezzo": 1999,
+      "immagine": "./immagini/razerblade.jpg",
+      "specifiche": {
+        "Processore": "Intel Core i7 2.3GHz",
+        "RAM": "16 GB",
+        "Scheda Video": "NVIDIA GeForce RTX 3070",
+        "Storage": "1 TB SSD"
+      }
+    },
+    {
+      "nome": "MSI GS66 Stealth",
+      "prezzo": 1799,
+      "immagine": "./immagini/msigs66.jpg",
+      "specifiche": {
+        "Processore": "Intel Core i7 2.3GHz",
+        "RAM": "16 GB",
+        "Scheda Video": "NVIDIA GeForce RTX 3060",
+        "Storage": "1 TB SSD"
+      }
+    },
+    {
+      "nome": "Samsung Galaxy Book Pro",
+      "prezzo": 1399,
+      "immagine": "./immagini/galaxybookpro.jpg",
+      "specifiche": {
+        "Processore": "Intel Core i7 2.8GHz",
+        "RAM": "16 GB",
+        "Scheda Video": "Intel Iris Xe",
+        "Storage": "512 GB SSD"
+      }
+    }
+  ]
+  
