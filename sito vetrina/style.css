@@ -278,3 +278,16 @@ button:hover {
   background-color: #e74c3c;
   color: #fff;
 }
+
+.bottoni-carrello {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+  width: 100%;
+  max-width: 300px;
+}
+
+.bottoni-carrello button {
+  width: 100%;
+}
