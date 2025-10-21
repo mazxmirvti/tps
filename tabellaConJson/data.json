@@ -1,0 +1,27 @@
+[
+  {
+    "nome": "Massimiliano",
+    "cognome": "Ammirati",
+    "dataNascita": "2007-04-12"
+  },
+  {
+    "nome": "Sebastie",
+    "cognome": "Ayala",
+    "dataNascita": "2008-09-23"
+  },
+  {
+    "nome": "Valerio",
+    "cognome": "Battaglia",
+    "dataNascita": "2007-12-05"
+  },
+  {
+    "nome": "Lucia",
+    "cognome": "Biroli",
+    "dataNascita": "2008-02-17"
+  },
+  {
+    "nome": "Riccardo",
+    "cognome": "Marzi",
+    "dataNascita": "2007-07-30"
+  }
+]

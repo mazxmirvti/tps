@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcolatrice</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="filtro-bar">
+            <label for="lettera">Filtra per cognome che inizia con:</label>
+            <input type="text" id="lettera" maxlength="1" style="width: 180px; text-transform:uppercase; color: #fff; background: rgba(255,255,255,0.22); font-size: 1.35em; font-weight: 600; padding: 16px 20px; border-radius: 10px; border: none; box-shadow: 0 2px 8px #a4508b33; outline: none;">
+            <button onclick="filtraCognome()">Filtra</button>
+            <button onclick="resetTabella()">Reset</button>
+            <button onclick="mostraMaggiorenni2025()">Cognomi maggiorenni nel 2025</button>
+        </div>
+        <table id="tabella">
+            <tr>
+                <td>Nome</td>
+                <td>Cognome</td>
+                <td>Data di nascita</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
