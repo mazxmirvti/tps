@@ -1,4 +1,5 @@
 var datiJson = [];
+caricaDati();
 
 function caricaDati() {
   const req = new XMLHttpRequest();
@@ -9,8 +10,6 @@ function caricaDati() {
     popolaTabella(datiJson);
   };
 }
-
-caricaDati();
 
 function popolaTabella(data) {
   var tabella = document.getElementById('tabella');
@@ -57,3 +56,4 @@ function mostraMaggiorenni2025() {
     r.insertCell(2).textContent = maggiorenni[j].dataNascita;
   }
 }
+
