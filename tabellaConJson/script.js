@@ -26,14 +26,14 @@ function popolaTabella(data) {
 
 function filtraCognome() {
   let lettera = document.getElementById('lettera').value.toUpperCase();
-  let filtrati = [];
+  let sgamati = [];
   for (let i = 0; i < datiJson.length; i++) {
     let cognome = (datiJson[i].cognome).toUpperCase();
     if (cognome.startsWith(lettera)) {
-      filtrati.push(datiJson[i]);
+      sgamati.push(datiJson[i]);
     }
   }
-  popolaTabella(filtrati);
+  popolaTabella(sgamati);
 }
 
 function resetTabella() {
@@ -52,6 +52,7 @@ function mostraMaggiorenni2025() {
   }
   popolaTabella(maggiorenni);
 }
+
 
 
 
