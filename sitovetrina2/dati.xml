@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prodotti>
+  <prodotto>
+    <nome>HP Spectre x360</nome>
+    <marca>HP</marca>
+    <prezzo>1299</prezzo>
+    <immagine>immagini/hpspectre.jpg</immagine>
+    <specifica nome="Processore">Intel i7</specifica>
+    <specifica nome="RAM">16GB</specifica>
+    <specifica nome="SSD">512GB</specifica>
+  </prodotto>
+  <prodotto>
+    <nome>Surface Laptop 4</nome>
+    <marca>Microsoft</marca>
+    <prezzo>1399</prezzo>
+    <immagine>immagini/surfacelaptop.jpg</immagine>
+    <specifica nome="Processore">AMD Ryzen 5</specifica>
+    <specifica nome="RAM">16GB</specifica>
+    <specifica nome="SSD">512GB</specifica>
+  </prodotto>
+  <prodotto>
+    <nome>iMac 27"</nome>
+    <marca>Apple</marca>
+    <prezzo>1999</prezzo>
+    <immagine>immagini/imac27.jpeg</immagine>
+    <specifica nome="Processore">Intel i5</specifica>
+    <specifica nome="RAM">8GB</specifica>
+    <specifica nome="SSD">256GB</specifica>
+  </prodotto>
+</prodotti>

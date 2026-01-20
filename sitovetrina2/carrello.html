@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Carrello</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+</head>
+<body>
+  <nav class="navbar">
+    <div>
+      <a href="index.html" class="navbar-title">Passione-Computer.com</a>
+    </div>
+    <div>
+      <a href="login.html" class="navbar-link">Esci</a>
+    </div>
+  </nav>
+
+  <main class="pagina-carrello">
+    <h1>Il tuo carrello</h1>
+
+    <table id="tabella">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Modello</th>
+          <th>Prezzo</th>
+        </tr>
+      </thead>
+      <tbody>
+
+      </tbody>
+    </table>
+
+    <p id="totale" class="totale">Totale:</p>
+    
+    <div class="bottoni-carrello">
+        <button onclick="generaRicevuta()">Scarica ricevuta</button>
+        <button onclick="svuotaCarrello()">Svuota carrello</button>
+      </div>
+    </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

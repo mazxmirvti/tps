@@ -1,0 +1,7 @@
+nome,marca,prezzo,immagine,Processore,RAM,SSD
+Acer Swift 3,Acer,799,immagini/acerswift.jpg,Intel i5,8GB,256GB
+Dell XPS 15,Dell,1799,immagini/dellxps15.jpg,Intel i7,16GB,512GB
+MSI GS66,MSI,1599,immagini/msigs66.jpg,Intel i7,16GB,1TB
+Razer Blade 15,Razer,2099,immagini/razerblade.jpg,Intel i7,16GB,1TB
+Asus ZenBook 14,Asus,999,immagini/asuszenbook.jpg,Intel i5,8GB,512GB
+Galaxy Book Pro,Samsung,1199,immagini/galaxybookpro.jpg,Intel i5,8GB,512GB
